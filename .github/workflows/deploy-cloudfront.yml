@@ -63,4 +63,4 @@ jobs:
 
     - name: Check Environment
       run: |
-        ./scripts/build-app.sh $ENV
+        ./scripts/healthcheck.sh $ENV
